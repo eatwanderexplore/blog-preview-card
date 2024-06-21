@@ -6,30 +6,35 @@
 
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
   <link rel="stylesheet" type="text/css" href="./styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
   <title>Frontend Mentor | Blog preview card</title>
-
-
 </head>
 <body>
   <div class="container">
-    <img src="./assets/images/illustration-article.svg" alt="yellow and black abstract art with coding arrows and backslash">
-    <div class="tag">
-      Learning
-    </div>
+    <img class="blog-image" src="./assets/images/illustration-article.svg" alt="yellow and black abstract art with coding arrows and backslash">
+    <div class="text-block">
+      <div class="tag">
+        <button>Learning</button>
+      </div>
+      
+      <div class="date">
+        <h6>Published 21 Dec 2023</h6>
+      </div>
+      
+      <div class="blog-title">
+        <h3><a href="#">HTML & CSS foundations</a></h3>
+      </div>
+
+      <div class="summary">
+        <h5>These languages are the backbone of every website, defining structure, content, and presentation.</h5>
+      </div>
     
-    <div class="date">
-      Published 21 Dec 2023
-    </div>
-    
-    <div class="blog-title">
-      HTML & CSS foundations
-    </div>
-    <div class="summary">
-      These languages are the backbone of every website, defining structure, content, and presentation.
-    </div>
-  
-    <div class="author">
-      Greg Hooper
+      <div class="author">
+        <img src="./assets/images/image-avatar.webp" alt="profile image of Greg Hooper">
+        <h6>Greg Hooper</h6>
+      </div>
     </div>
     
   </div>

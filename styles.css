@@ -1,10 +1,96 @@
 body {
     background-color: hsl(47, 88%, 63%);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: "Figtree", sans-serif;
 
 }
 
+.container {
+    background-color: white;
+    box-sizing: border-box;
+    width: 320px;
+    height: 420px;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    margin-bottom: auto;
+    top: 50%;
+    transform: translateY(40%);
+    position: relative;
+    border-radius: 15px;
+    border: solid;
+    border-color: black;
+    box-shadow: 8px 8px 0px black;
+}
 
+.blog-image {
+    width: 90%;
+    height: auto;
+    margin: 16px 16px 0px 16px;
+    border-radius: 15px;
+}
 
+.text-block {
+    margin: 16px 16px 0px 16px;
+    text-align: left;
+}
+
+.tag button{
+    background-color: hsl(47, 88%, 63%);
+    font-weight: 800;
+    border-radius: 5px;
+    padding: 5px 10px;
+    border: none;
+    margin-bottom: 0;
+}
+
+.date h6 {
+    font-weight: 400;
+    line-height: 0.1;
+    margin-top: 15px;
+}
+
+.blog-title h3 {
+    font-weight: 800;
+    line-height: 0.1;
+    margin-bottom: 0;
+}
+
+.blog-title a {
+    color: black;
+    text-decoration: none;
+}
+
+.blog-title a:hover {
+    color: hsl(47, 88%, 63%);
+}
+
+.summary h5 {
+    color: hsl(0, 0%, 50%);
+    line-height: 1.5;
+    font-weight: 300;
+    margin-bottom: 0;
+}
+
+.author {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.author img {
+    width: 10%;
+    height: 10%;
+}
+
+.author h6 {
+    margin-left: 10px;
+    bottom: 50%;
+}
 
 .attribution { 
     font-size: 11px; 
