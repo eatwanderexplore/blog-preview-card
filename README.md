@@ -28,8 +28,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [https://github.com/eatwanderexplore/blog-preview-card]
-- Live Site URL: [Add live site URL here]
+- Solution URL: [](https://github.com/eatwanderexplore/blog-preview-card)
+- Live Site URL: [](https://eatwanderexplore.github.io/blog-preview-card/)
 
 ## My process
 
